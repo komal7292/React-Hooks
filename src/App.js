@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import Accordion from './components/Accordion'
 
 const items = [
@@ -17,19 +16,12 @@ const items = [
   }
 ]
 
-export default  () => {
+const App = () => {
   return(
     <div>
       <Accordion items={items} />
     </div>
-  ) 
+  )
 }
-// const App = () => {
-//   return(
-//     <div>
-//       <Accordion items={items} />
-//     </div>
-//   )
-// }
 
-// export default App
+export default App
